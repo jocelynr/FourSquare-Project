@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+ <!-- Bootstrap
+// This sets the grid for our CSS.
+// Does NOT redesign our tags for us.
+-- >
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  </head>  
+  
+  <body>
+    <div align="center">
+    <h4 id="topText"> Search For Restaurants Near You ! </h4>
+    
+  <!-- https://api.foursquare.com/v2/venues/search -->
+  
+  
+  <!-- Input Tags -->
+    <input id="searchContainer" type="text" name="Search" placeholder="Location" size="30" value=""></input>
+
+    <input id="searchContainer" type="text" name="Search2" placeholder="Type of Food" size="30" value=""></input>
+    <br><br>
+    
+  <!-- Search/Submit Buttons -->  
+    <button id="searchButton" class="" onclick="search()"> Search </button>
+    
+    <button id="clearButton" class="" onclick="resetSearch()"> Clear! </button>
+
+    
+    <ul id="searchContainer" class="search-container"></ul>
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-sm-4">
+    <div class="col-sm-4">
+    </div>
+   
+   <h6 id="developers"> Developers: <br > Peter R. Rose Jr<br> Jocelyn Reyes </h6>
+    </div>
+        </div>
+          </div>
+            </div>
+    
+    <div id="apiArea">
+      </div>
+  </body>
+</html>

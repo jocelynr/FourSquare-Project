@@ -1,0 +1,56 @@
+#topText {
+ font-size: 20px;
+ font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+}
+
+#searchContainer {
+ font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+ font-size: 18px;
+ line-height: 10px;
+ border-radius: 3px;
+}
+
+.buttons {
+    border-radius: 4px;
+}
+
+/* /// DONT CHANGE/DELETE! ///
+/// INTENTIONALLY LEFT BLANK!/// */
+#apiArea {
+ height:0;
+ width:0;
+ background-color:0;
+ border-style:0;
+ border-width:0;
+ position:0;
+}
+
+#developers {
+ font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+ font-size: 14px;
+ font-style: normal;
+ font-variant: normal;
+ font-weight: 500;
+
+ line-height: 15.4px;
+}
+
+
+#postSearchButton {
+    background-color: light-blue;
+    outline: none;
+    border: gray;
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#undoSearchButton {
+    background-color: light-blue;
+    border: gray;
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
